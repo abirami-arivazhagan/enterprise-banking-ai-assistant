@@ -1,0 +1,23 @@
+anthropic:
+
+  model: claude-3-5-sonnet-20241022
+
+  temperature: 0.2
+
+  max_tokens: 2048
+
+
+openai:
+
+  model: gpt-4o-mini
+
+  temperature: 0.2
+
+  max_tokens: 2048
+
+
+embedding:
+
+  provider: huggingface
+
+  model: sentence-transformers/all-MiniLM-L6-v2

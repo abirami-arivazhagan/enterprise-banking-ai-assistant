@@ -1,0 +1,74 @@
+project:
+  id: 2
+  name: Customer Service & Complaint Resolution
+
+roles:
+
+  l1_agent:
+    permissions:
+      - rag
+      - complaint_intake
+    allowed_doc_types:
+      - sop
+      - faq
+      - tnc
+      - tariff
+      - public
+
+  l2_specialist:
+    permissions:
+      - rag
+      - complaint_intake
+      - complaint_history
+      - tool
+    allowed_doc_types:
+      - sop
+      - faq
+      - tnc
+      - tariff
+      - complaint
+      - resolved_ticket
+      - public
+      - internal
+
+  team_lead:
+    permissions:
+      - rag
+      - complaint_intake
+      - complaint_history
+      - tool
+      - hitl
+    allowed_doc_types:
+      - sop
+      - faq
+      - tnc
+      - tariff
+      - complaint
+      - resolved_ticket
+      - rbi_charter
+      - public
+      - internal
+
+  compliance:
+    permissions:
+      - rag
+      - complaint_history
+      - regulatory
+      - hitl
+    allowed_doc_types:
+      - sop
+      - faq
+      - tnc
+      - tariff
+      - complaint
+      - resolved_ticket
+      - rbi_charter
+      - regulatory
+      - public
+      - internal
+
+  admin:
+    permissions:
+      - all
+    allowed_doc_types:
+      - all

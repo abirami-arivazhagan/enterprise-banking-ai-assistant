@@ -1,0 +1,13 @@
+servers:
+
+  crm:
+
+    url: http://localhost:9001
+
+    token: demo-token
+
+  sanctions:
+
+    url: http://localhost:9002
+
+    token: demo-token

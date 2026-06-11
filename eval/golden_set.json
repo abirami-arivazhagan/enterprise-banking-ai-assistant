@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the step-by-step process for raising a chargeback on a card transaction?",
+    "expected": "The answer should explain how to verify the disputed card transaction, contact the merchant if appropriate, gather evidence, report the dispute to the bank, submit transaction details and documents, receive a ticket or reference number, and wait for bank investigation and final resolution."
+  },
+  {
+    "query": "What are the charges for an outward NEFT above Rs. 2 lakh?",
+    "expected": "The answer should provide the applicable NEFT charge or clearly state when the exact Nexus Bank tariff is unavailable, without citing unrelated documents."
+  },
+  {
+    "query": "Under what circumstances can the bank close a current account without notice?",
+    "expected": "The answer should describe serious account closure grounds such as fraud, illegal activity, KYC or AML failure, regulatory or legal direction, and terms violation, while distinguishing general banking practice from Nexus-specific policy if not in corpus."
+  },
+  {
+    "query": "What is the maximum TAT for resolution of an unauthorised electronic transaction complaint per RBI?",
+    "expected": "The answer should mention the RBI-oriented complaint-resolution timeline and avoid presenting Nexus Bank complaint categories as the RBI rule unless the retrieved source supports it."
+  },
+  {
+    "query": "How did we resolve a similar complaint about duplicate UPI debit in the last quarter?",
+    "expected": "The answer should retrieve complaint-history context if available, or clearly say that no similar resolved complaint is available in the indexed corpus."
+  },
+  {
+    "query": "What are the differences in dispute filing process across branch, net banking, and mobile app?",
+    "expected": "The answer should compare dispute filing channels clearly and cite bank policy only when the channel details are present in the retrieved context."
+  },
+  {
+    "query": "Compare dispute resolution SLA for credit card vs debit card unauthorised transactions.",
+    "expected": "The answer should compare credit-card and debit-card dispute timelines if available, otherwise explain the missing source limitation without unrelated citations."
+  },
+  {
+    "query": "A long-standing customer is threatening to close their account. What retention SOPs apply?",
+    "expected": "The answer should discuss retention or escalation SOPs only if present in the corpus, otherwise provide safe general guidance and suggest internal review."
+  },
+  {
+    "query": "What is our policy on cryptocurrency-related transactions?",
+    "expected": "The answer should refuse to invent Nexus Bank policy if cryptocurrency policy is not in the corpus."
+  },
+  {
+    "query": "Draft a complaint resolution letter for ticket X citing relevant T&C clauses and RBI provisions.",
+    "expected": "The answer should draft a professional letter only with available clauses and mark missing ticket, T&C, or RBI provision details as placeholders."
+  }
+]
