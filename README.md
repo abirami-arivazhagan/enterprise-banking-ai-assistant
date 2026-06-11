@@ -1,4 +1,4 @@
-# Nexus Bank AI Assistant
+# Bank AI Assistant
 
 This is a **Customer Service & Complaint Resolution Banking Assistant** 
 
